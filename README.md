@@ -1,7 +1,3 @@
-# alarmclock
-run command
-pip install -r requirements.txt
-python3 simple.py
 # Kivy Alarm Clock Application Documentation
 
 ## Overview
@@ -85,3 +81,17 @@ The application accepts two time formats:
 - The alarm sound file path must be updated to match your system configuration
 - The application automatically handles next-day alarms if the specified time has already passed
 - The UI is responsive and adjusts to window size changes
+
+## Commands to Run
+
+### Installation
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Application
+```bash
+python3 simple.py
+```
+
+Make sure you are in the correct directory containing both the `requirements.txt` file and `simple.py` before running these commands.
